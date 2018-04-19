@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="titleArray">
+    <item>Select title</item>
+    <item>Mr.</item>
+    <item>Ms.</item>
+    <item>Mrs.</item>
+    <!--<item>Brig.</item>
+    <item>Capt.</item>
+    <item>Col.</item>
+    <item>Dr.</item>
+    <item>Gen.</item>
+    <item>Lt.Col.</item>
+    <item>Major.</item>
+    <item>Prof.</item>-->
+</string-array>
+
+
+        <array name="progressLoader">
+
+            <item>@color/bluish_brown</item>
+            <item>@color/bluish_brown</item>
+            <item>@color/bluish_brown</item>
+            <item>@color/bluish_brown</item>
+
+        </array>
+
+    <array name="splashscreenprogressLoader">
+
+        <item>@color/red</item>
+        <item>@color/bluish_brown</item>
+        <item>@color/green</item>
+        <item>@color/yellow</item>
+
+    </array>
+
+</resources>

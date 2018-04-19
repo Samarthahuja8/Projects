@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/info_window_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/container"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_37dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/app_icon"
+                android:id="@+id/app_icon"/>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/width_2dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_3dp"
+            android:layout_marginLeft="@dimen/margin_3dp"
+            android:layout_marginRight="@dimen/margin_3dp"
+            android:layout_marginTop="@dimen/margin_3dp"
+            android:background="@drawable/silver_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/width_190dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.app.farmerswikki.util.custom.TextViewBold
+                android:id="@+id/state_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:lines="1"
+                android:text="BIhar"
+                android:textColor="@color/bluish_brown"
+                android:textSize="@dimen/text_size_15sp"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                />
+
+            <com.app.farmerswikki.util.custom.TextViewRegular
+                android:id="@+id/state_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:lines="1"
+                android:textColor="@color/bluish_brown"
+                android:textSize="@dimen/text_size_13sp"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_2sdp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/width_2dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_3dp"
+            android:layout_marginLeft="@dimen/margin_3dp"
+            android:layout_marginRight="@dimen/margin_3dp"
+            android:layout_marginTop="@dimen/margin_3dp"
+            android:background="@drawable/silver_line" />
+
+        <TextView
+            android:layout_width="@dimen/width_60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Tap to open"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

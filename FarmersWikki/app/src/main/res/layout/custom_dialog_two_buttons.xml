@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="7dp"
+    card_view:cardElevation="7dp"
+    card_view:cardMaxElevation="7dp"
+    card_view:contentPadding="7dp"
+    card_view:cardBackgroundColor="@color/white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.app.farmerswikki.util.custom.TextViewRegular
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/title"
+            android:textColor="@color/bluish_brown"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/bluish_brown"
+
+            />
+
+        <com.app.farmerswikki.util.custom.TextViewRegular
+            android:id="@+id/txtMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="This should be message description."
+            android:textColor="@color/color_dark_grey_bg_font_icon"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="@dimen/margin_20dp">
+
+            <com.app.farmerswikki.util.custom.ButtonBold
+                android:id="@+id/btnPositive"
+                style="@style/MaterialButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_gravity="center"
+                android:text="Leave It!"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"/>
+
+            <com.app.farmerswikki.util.custom.ButtonBold
+                android:id="@+id/btnNegative"
+                style="@style/MaterialButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_gravity="center"
+                android:text="Delete"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer type="integer" name="max_length">17</integer>
+    <integer type="integer" name="marker_width_60">70</integer>
+    <integer name="marker_height_70">80</integer>
+    <integer name="image_width_192">190</integer>
+    <integer name="image_width_200">200</integer>
+    <integer name="image_width_300">300</integer>
+    <integer name="image_width_150">150</integer>
+    <integer name="image_width_500">500</integer>
+    <integer name="image_width_100">100</integer>
+</resources>

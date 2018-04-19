@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relative_or1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="@dimen/login_left"
+        android:layout_marginRight="@dimen/login_right"
+        android:layout_marginTop="15dp">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         >
+
+            <View
+                android:id="@+id/view_or"
+                android:layout_width="110dp"
+                android:layout_height="@dimen/view_height_2dp"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/relative_or"
+                android:background="@drawable/login_view_gradient" />
+
+
+            <View
+                android:id="@+id/view_or_right"
+                android:layout_width="110dp"
+                android:layout_height="@dimen/view_height_2dp"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/relative_or"
+                android:background="@drawable/login_view_gradient" />
+
+
+            <RelativeLayout
+                android:id="@+id/relative_or"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/margin_10dp"
+               android:layout_marginLeft="@dimen/margin_10dp"
+               >
+
+                    <com.app.farmerswikki.util.custom.TextViewRegular
+                        android:id="@+id/or"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_or"
+                        android:textColor="@color/or_color"
+                        android:textSize="@dimen/text_size_13sp"
+                        />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

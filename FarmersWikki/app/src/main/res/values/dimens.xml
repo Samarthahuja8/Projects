@@ -1,0 +1,116 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    //login screen
+    <dimen name="login_top">12dp</dimen>
+    <dimen name="login_left">15dp</dimen>
+    <dimen name="login_right">15dp</dimen>
+    <dimen name="splash_margin_bootom_layout">20dp</dimen>
+    <dimen name="button_new_width">@dimen/_145sdp</dimen>
+    <dimen name="button_new_height">@dimen/_35sdp</dimen>
+    <dimen name="button_mygarage_width">@dimen/_200sdp</dimen>
+
+
+
+    <!--from old file -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="navigation_drawer_width_300dp">300dp</dimen>
+    <dimen name="singlel_layout_height">45dp</dimen>
+
+    <dimen name="padding_circularview">2dp</dimen>
+    <dimen name="circular_text_size">@dimen/_8sdp</dimen> <!--10sp-->
+    <dimen name="button_height">@dimen/_35sdp</dimen> <!--40dp-->
+    <dimen name="textsize_medium">@dimen/_15sdp</dimen><!--18sp-->
+    <dimen name="textsize_normal_view">@dimen/_40sdp</dimen><!--50dp-->
+    <dimen name="circular_height_ring">50dp</dimen>
+    <dimen name="actionbar_margin_left_">20dp</dimen>
+    <dimen name="circular_size_counter">80dp</dimen>
+    <dimen name="paddingleft">12dp</dimen>
+    <dimen name="text_size">@dimen/_13sdp</dimen><!--16sp-->
+    <dimen name="margin_top">25dp</dimen>
+    <dimen name="margin_top_signup">7dp</dimen>
+    <dimen name="margin_top_listrow">15dp</dimen>
+
+    <dimen name="margin_top_button">5dp</dimen>
+    <dimen name="margin_top_dialog">6dp</dimen>
+    <dimen name="padding_linear">8dp</dimen>
+    <dimen name="header_iconsize">@dimen/_170sdp</dimen> <!--180dp-->
+    <dimen name="header_height">@dimen/_100sdp</dimen> <!--110dp-->
+
+    <dimen name="lanuage_width">@dimen/_110sdp</dimen> <!--120dp-->
+    <dimen name="margin_right_actionbar">12dp</dimen>
+    <dimen name="title_size">@dimen/_15sdp</dimen><!--19sp-->
+    <dimen name="profile_size">@dimen/_50sdp</dimen><!--60dp-->
+    <dimen name="dashboard_menu">@dimen/_30sdp</dimen> <!--35dp-->
+
+    <dimen name="width_otp_edit">@dimen/_90sdp</dimen><!--100dp-->
+    <dimen name="margin_left_layout">20dp</dimen>
+    <dimen name="padding_otp_mainlayout">15dp</dimen>
+
+    <dimen name="padding_list_row">4dp</dimen>
+    <dimen name="margin_top_list">6dp</dimen>
+    <dimen name="margin_left_login">40dp</dimen>
+    <dimen name="margin_left_orderlist_row">40dp</dimen>
+    <dimen name="button_width">@dimen/_150sdp</dimen> <!--160dp-->
+    <dimen name="list_margin_top">6dp</dimen>
+    <dimen name="order_layout">@dimen/_85sdp</dimen> <!--90dp-->
+    <dimen name="order_layout_width">@dimen/_140sdp</dimen><!--150dp-->
+    <dimen name="rating">@dimen/_5sdp</dimen><!--8dp-->
+    <dimen name="rating_minheight">@dimen/_23sdp</dimen><!--25dp-->
+    <dimen name="rating_maxheight">@dimen/_43sdp</dimen><!--45dp-->
+    <dimen name="rating_width">@dimen/_190sdp</dimen><!--200dp-->
+    <dimen name="min_width">@dimen/_17sdp</dimen><!--20dp-->
+    <dimen name="textview_padding_list">3dp</dimen>
+    <dimen name="image_view_size_driverrating">@dimen/_35sdp</dimen><!--40dp-->
+    <dimen name="text_margin_left_driver_rating">10dp</dimen>
+    <dimen name="text_margin_top_dialog">10dp</dimen>
+    <dimen name="text_margin_top_book_dialog">5dp</dimen>
+    <dimen name="margin_top_book_dialog">20dp</dimen>
+    <dimen name="margin_top_book_confrmation">10dp</dimen>
+    <dimen name="list_text_margin">30dp</dimen>
+    <dimen name="margin_top_spiner">5dp</dimen>
+    <dimen name="margin_top_aboutus">25dp</dimen>
+    <dimen name="padding_about_us">20dp</dimen>
+    <dimen name="margin_top_contact_us">10dp</dimen>
+    <dimen name="message_height_contact_us">@dimen/_90sdp</dimen><!--100dp-->
+    <dimen name="text_paddind_left">25dp</dimen>
+    <dimen name="spiner_paddind_left_booktruck">35dp</dimen>
+    <dimen name="checkbox_padding_bookTruck">10dp</dimen>
+    <dimen name="margintop_optinalmsg">15dp</dimen>
+    <dimen name="text_size_big">@dimen/_14sdp</dimen><!--17sp-->
+    <dimen name="padding_bottom_no_of_truck">17dp</dimen>
+    <dimen name="padding_bottom_no_of_truck_img">10dp</dimen>
+    <dimen name="drop_top_margin">3dp</dimen>
+    <dimen name="margin_top_spiner_product_type">7dp</dimen>
+    <dimen name="margin_top_truck_waight">3dp</dimen>
+    <dimen name="margin_list_row">3dp</dimen>
+    <dimen name="margin_top_from_no_of_truck">6dp</dimen>
+    <dimen name="text_margin_bottom">2dp</dimen>
+    <dimen name="textsize_heading">@dimen/_12sdp</dimen><!--15sp-->
+    <dimen name="left_drwable_padding">3dp</dimen>
+    <dimen name="navigation_drwaer_profile_height">@dimen/_160sdp</dimen><!--170dp-->
+    <dimen name="margin_left_in_drwaer">15dp</dimen>
+    <dimen name="list_margin_top_header">9dp</dimen>
+    <dimen name="icon_size">@dimen/_25sdp</dimen><!--30dp-->
+    <dimen name="button_height_large">@dimen/_17sdp</dimen><!--20dp-->
+    <dimen name="registration_margin_bottom">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">@dimen/_130sdp</dimen><!--140dp-->
+    <dimen name="marginleft_edittext">10dp</dimen>
+    <dimen name="margin_top_reset_password">31dp</dimen>
+    <dimen name="margin_textview">20dp</dimen>
+    <dimen name="height_of_layout">@dimen/_35sdp</dimen><!--40dp-->
+    <dimen name="button_height1">35dp</dimen>
+    <dimen name="padding_right_login">5dp</dimen>
+    <dimen name="padding_left_login">5dp</dimen>
+    <dimen name="margin_left_action_bar">10dp</dimen>
+    <dimen name="margin_left_tab_bar">25dp</dimen>
+    <dimen name="text_size_tab_title">@dimen/_13sdp</dimen><!--15dp-->
+    <dimen name="tab_size">@dimen/_42sdp</dimen><!--45dp-->
+
+
+
+
+</resources>

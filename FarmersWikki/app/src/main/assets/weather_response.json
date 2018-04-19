@@ -1,0 +1,98 @@
+{
+  "latitude": 27.3389,
+  "longitude": 88.6065,
+  "timezone": "Asia/Kolkata",
+  "offset": 5.5,
+  "currently": {
+    "time": 1503311678,
+    "summary": "Partly Cloudy",
+    "icon": "partly-cloudy-day",
+    "precipIntensity": 0,
+    "precipProbability": 0,
+    "temperature": 70.95,
+    "apparentTemperature": 71.48,
+    "dewPoint": 64.33,
+    "humidity": 0.8,
+    "windSpeed": 2.48,
+    "windGust": 4.93,
+    "windBearing": 128,
+    "cloudCover": 0.41,
+    "pressure": 1004.39,
+    "ozone": 264.15,
+    "uvIndex": 1
+  },
+  "hourly": {
+    "summary": "Light rain tomorrow afternoon.",
+    "icon": "rain",
+    "data": [
+      {
+        "time": 1503315000,
+        "summary": "Partly Cloudy",
+        "icon": "partly-cloudy-day",
+        "precipIntensity": 0,
+        "precipProbability": 0,
+        "temperature": 70.15,
+        "apparentTemperature": 70.75,
+        "dewPoint": 64.64,
+        "humidity": 0.83,
+        "windSpeed": 2.51,
+        "windGust": 5.13,
+        "windBearing": 160,
+        "cloudCover": 0.36,
+        "pressure": 1004.44,
+        "ozone": 264.21,
+        "uvIndex": 1
+      }
+    ]
+  },
+  "daily": {
+    "summary": "Light rain throughout the week, with temperatures rising to 74°F on Thursday.",
+    "icon": "rain",
+    "data": [
+      {
+        "time": 1503253800,
+        "summary": "Rain until afternoon.",
+        "icon": "rain",
+        "sunriseTime": 1503272450,
+        "sunsetTime": 1503319178,
+        "moonPhase": 0.99,
+        "precipIntensity": 0.0241,
+        "precipIntensityMax": 0.0741,
+        "precipIntensityMaxTime": 1503293400,
+        "precipProbability": 0.71,
+        "precipType": "rain",
+        "temperatureMin": 62.62,
+        "temperatureMinTime": 1503271800,
+        "temperatureMax": 71.16,
+        "temperatureMaxTime": 1503307800,
+        "apparentTemperatureMin": 62.99,
+        "apparentTemperatureMinTime": 1503271800,
+        "apparentTemperatureMax": 71.63,
+        "apparentTemperatureMaxTime": 1503307800,
+        "dewPoint": 62.54,
+        "humidity": 0.86,
+        "windSpeed": 0.71,
+        "windGust": 5.13,
+        "windGustTime": 1503315000,
+        "windBearing": 103,
+        "cloudCover": 0.57,
+        "pressure": 1006.83,
+        "ozone": 263.32,
+        "uvIndex": 11,
+        "uvIndexTime": 1503297000
+      }
+    ]
+  },
+  "flags": {
+    "sources": [
+      "isd",
+      "cmc",
+      "gfs",
+      "madis"
+    ],
+    "isd-stations": [
+      "418520-99999"
+    ],
+    "units": "us"
+  }
+}

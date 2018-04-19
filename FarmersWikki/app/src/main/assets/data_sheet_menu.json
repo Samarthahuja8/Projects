@@ -1,0 +1,24 @@
+{
+  "dataSheetList":[
+    {
+      "description": "Feedback",
+      "code":"FEEDBACK"
+    },
+    {
+      "description": "Reviews",
+      "code":"REVIEWS"
+    },
+    {
+      "description": "Enquiry",
+      "code":"ENQUIRY"
+    },
+    {
+      "description": "About",
+      "code":"ABOUT"
+    },
+    {
+      "description": "Contact Us",
+      "code":"CONTACT_US"
+    }
+  ]
+}

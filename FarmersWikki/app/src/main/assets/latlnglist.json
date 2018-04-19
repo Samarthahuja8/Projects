@@ -1,0 +1,29 @@
+{
+  "stateLatLngList":[
+  {
+    "name": "AndamanNicobar",
+    "Latitude": "11.66702557",
+    "Longitude": "92.73598262"
+  },
+  {
+    "name": "AndhraPradesh",
+    "Latitude": "14.7504291",
+    "Longitude": "78.57002559"
+  },
+  {
+    "name": "ArunachalPradesh",
+    "Latitude": "27.10039878",
+    "Longitude": "93.61660071"
+  },
+  {
+    "name": "Assam",
+    "Latitude": "26.7499809",
+    "Longitude": "94.21666744"
+  },
+  {
+    "name": "Bihar",
+    "Latitude": "25.78541445",
+    "Longitude": "87.4799727"
+  }
+]
+}

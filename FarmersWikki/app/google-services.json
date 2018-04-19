@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "186098482302",
+    "firebase_url": "https://farmerswikki.firebaseio.com",
+    "project_id": "farmerswikki",
+    "storage_bucket": "farmerswikki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186098482302:android:1953e4befb782f20",
+        "android_client_info": {
+          "package_name": "com.app.farmerswikki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186098482302-dtdgkj7i6lmmmrc0mf43tk9dmgmi6tsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.farmerswikki",
+            "certificate_hash": "443a9161bd4dbd8382ed0d29ee86242b924b24f5"
+          }
+        },
+        {
+          "client_id": "186098482302-l26754hnkf3vi5qimd0lprl19mos9ma3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_rnV48zhy2J9rw6QVtk9RP0M--roA-Ho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186098482302-l26754hnkf3vi5qimd0lprl19mos9ma3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

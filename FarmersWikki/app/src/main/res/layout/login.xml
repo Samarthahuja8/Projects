@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_10dp">
+
+            <include layout="@layout/include_skoda_with_title" />
+
+            <LinearLayout
+                android:id="@+id/include_google_signIn"
+                android:layout_width="match_parent"
+                android:layout_height="72dp">
+
+                <include layout="@layout/google_sign_in_layout" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/include_or_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/include_or_layout" />
+            </LinearLayout>
+
+            <include layout="@layout/include_login" />
+
+
+            <LinearLayout
+                android:id="@+id/layout_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/_40sdp"
+                android:paddingRight="@dimen/_40sdp"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/login_button_height"
+                    android:layout_below="@+id/relative_or1"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/edittext_border"
+                    android:gravity="center"
+
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/email_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_left_10dp"
+                        android:gravity="center"
+                        android:src="@drawable/email_logo"
+                        android:textSize="@dimen/icon_size"
+                        android:visibility="visible" />
+
+                    <com.app.farmerswikki.util.custom.EditTextRegular
+                        android:id="@+id/editText_Username_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_10dp"
+                        android:layout_toEndOf="@+id/email_icon"
+                        android:layout_toRightOf="@+id/email_icon"
+                        android:background="#00ffffff"
+                        android:gravity="center_vertical"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:lines="1"
+                        android:paddingLeft="@dimen/paddingleft_10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/bluish_brown"
+                        android:textColorHint="#a4a5a4"
+                        android:textSize="@dimen/text_size_13sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/password_sub_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/login_button_height"
+                    android:layout_marginTop="@dimen/login_top"
+                    android:background="@drawable/edittext_border"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:id="@+id/user_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_left_10dp"
+                        android:gravity="center"
+                        android:src="@drawable/password_icon"
+                        android:textSize="@dimen/icon_size"
+                        android:visibility="visible" />
+
+                    <com.app.farmerswikki.util.custom.EditTextRegular
+                        android:id="@+id/editText_password_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/margin_10dp"
+                        android:layout_toEndOf="@+id/user_icon"
+                        android:layout_toRightOf="@+id/user_icon"
+                        android:background="#00000000"
+                        android:gravity="center_vertical"
+                        android:hint="Enter Your Password Here"
+                        android:inputType="textPassword"
+                        android:lines="1"
+                        android:maxLength="15"
+                        android:paddingLeft="@dimen/paddingleft_10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/bluish_brown"
+                        android:textColorHint="#a4a5a4"
+                        android:textSize="@dimen/text_size_13sp" />
+
+                </RelativeLayout>
+
+                <com.app.farmerswikki.util.custom.TextViewRegular
+                    android:id="@+id/forgot_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/password_layout"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/login_left"
+                    android:layout_marginRight="@dimen/login_right"
+                    android:layout_marginTop="@dimen/login_top"
+
+                    android:paddingBottom="@dimen/padding_bottom_5dp"
+                    android:text="@string/forgot_pass"
+                    android:textColor="@color/forgot_pass"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <com.app.farmerswikki.util.custom.ButtonRegular
+                    android:id="@+id/login_btn"
+                    style="@style/MaterialButton"
+                    android:layout_width="@dimen/button_new_width"
+                    android:layout_height="@dimen/button_new_height"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:text="@string/login_title"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <com.app.farmerswikki.util.custom.TextViewRegular
+                    android:id="@+id/move_to_registration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/login_left"
+                    android:layout_marginRight="@dimen/login_right"
+                    android:layout_marginTop="@dimen/margin_top_10dp"
+                    android:paddingBottom="@dimen/padding_bottom_5dp"
+                    android:text="@string/new_user_join"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/text_size_15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_registration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+
+                android:visibility="gone">
+
+                <include layout="@layout/registration" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+

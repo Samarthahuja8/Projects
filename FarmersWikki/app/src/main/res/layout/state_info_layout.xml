@@ -1,0 +1,186 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:visibility="gone">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/farmer4"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+
+            >
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical"
+
+            >
+
+            <com.app.farmerswikki.util.custom.TextViewBold
+                android:id="@+id/stateNameTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center|center_vertical"
+                android:lineSpacingExtra="8dp"
+                android:text="State Name"
+                android:textColor="@color/bluish_brown"
+                android:textSize="@dimen/_15sdp" />
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                app:cardBackgroundColor="@color/background_color"
+                app:cardElevation="@dimen/_1sdp"
+                card_view:cardCornerRadius="2dp"
+                card_view:contentPadding="10dp">
+
+
+                <com.app.farmerswikki.util.custom.TextViewRegular
+                    android:id="@+id/aboutState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:lineSpacingExtra="8dp"
+                    android:padding="@dimen/margintop_15dp"
+                    android:textColor="@color/bluish_brown"
+                    android:textSize="@dimen/_11sdp" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <com.app.farmerswikki.util.custom.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center|center_vertical"
+                android:lineSpacingExtra="8dp"
+                android:text="Major Crops"
+                android:textColor="@color/bluish_brown"
+                android:textSize="@dimen/_15sdp" />
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/childLinearLayoutHorizontalScrollView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+
+            <com.app.farmerswikki.util.custom.TextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center|center_vertical"
+                android:lineSpacingExtra="8dp"
+                android:text="Krishi Vigyan Kendras"
+                android:textColor="@color/bluish_brown"
+                android:textSize="@dimen/_15sdp" />
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/childLinearLayoutScrollView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+
+              <!--Below Layout is only used for bottom margin -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                >
+
+            </LinearLayout>
+
+            <!--******************************************* -->
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margintop_15dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/weather"
+        app:layout_anchor="@id/appBarLayout"
+        app:layout_anchorGravity="bottom|right|end"
+        android:id="@+id/weatherPredictButton"
+        android:visibility="gone"/>
+
+
+    <com.jpardogo.android.googleprogressbar.library.GoogleProgressBar
+        android:id="@+id/circularProgressBarStateInfoFrag"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

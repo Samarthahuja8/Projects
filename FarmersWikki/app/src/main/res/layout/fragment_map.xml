@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_weight="15"
+        android:background="@drawable/edittext_rectangular_with_white_bacg"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:id="@+id/mainLayout"
+        android:clickable="false"
+        android:visibility="gone"
+
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/serachDealer_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:backgroundTint="@color/transparent"
+            android:hint="Enter State Name"
+            android:textColor="@color/bluish_brown"
+            android:textColorHint="#a4a5a4"
+            android:textSize="13sp"
+            android:clickable="true"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="90">
+
+            <ImageView
+                android:id="@+id/clear_butn"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/search_icon"
+                android:tint="@color/bluish_brown"
+                />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutMap"
+        android:layout_below="@+id/mainLayout"
+        android:visibility="gone">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    </LinearLayout>
+
+    <com.jpardogo.android.googleprogressbar.library.GoogleProgressBar
+        android:id="@+id/circularProgressBarMap"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        />
+
+
+
+</RelativeLayout>
